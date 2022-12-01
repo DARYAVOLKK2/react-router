@@ -1,0 +1,47 @@
+a {
+  color: aqua;
+  text-decoration: none;
+  font-size: 34px;
+}
+
+/* Used by default with NavLink */
+/* .active {
+  color: rgb(244, 248, 0);
+} */
+
+.activeLink {
+  color: rgb(244, 248, 0);
+}
+
+.courseLink {
+  color: rgb(120, 194, 243);
+
+}
+
+.courseLink:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  margin: 15px;
+
+}
+
+nav {
+  background-color: darkblue;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 0;
+  margin: 20px;
+  cursor: pointer;
+}
